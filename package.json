@@ -1,0 +1,30 @@
+{
+  "name": "mernstackapp",
+  "version": "1.0.0",
+  "description": "socail media app",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix user_interface",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix user_interface",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Navya Bachati",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}

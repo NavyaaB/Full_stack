@@ -2,3 +2,22 @@
   text-align: center;
 }
 
+.navbar {
+  border-radius: 0px;
+}
+.landing {
+  height: 500px;
+}
+.landing { 
+   background: url(./images/mainbg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.link-landing {
+  color: #000;
+}
+.navbar {
+  margin-bottom: 0;
+}
